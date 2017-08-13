@@ -1,0 +1,26 @@
+<!doctype HTML>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+     <script src="index.js"></script>
+  </head>
+  <body>
+    <div id="title-bar">
+      <div id="title">Word Online</div>
+      <div id="title-bar-btns">
+        <button id="min-btn">
+          <i class="material-icons">remove</i>
+        </button>
+        <button id="max-btn">
+          <i class="material-icons" id="max">fullscreen</i>
+        </button>
+        <button id="close-btn">
+          <i class="material-icons">close</i>
+        </button>
+      </div>
+    </div>
+    <div id="content" class="webview">
+        <webview src="https://office.live.com/start/Word.aspx" plugins class="webview" height="550px"></webview>
+    </div>
+  </body>
+</html>

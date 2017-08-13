@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url(MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+}
+
+
+html {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 100%;
+  background-color:
+}
+
+#title-bar {
+  -webkit-app-region: drag;
+  height: 50px;
+  padding: 0px;
+  margin: 0px;
+  background-color: #19478A;
+  color: #FFFFFF;
+  font-family: sans-serif;
+}
+
+#title {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  padding: 10px;
+  font-size: 30px;
+}
+
+#title-bar-btns {
+  -webkit-app-region: no-drag;
+  position: fixed;
+  top: 1;
+  right: 0;
+  padding: 10px;
+  font-size: 30px;
+}
+
+#title-bar-btns button {
+  height: 32px;
+  width: 32px;
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+}
+iframe {
+  
+}
