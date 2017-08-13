@@ -7,7 +7,7 @@
   "main": "main.js",
   "scripts": {
     "postinstall": "electron-builder install-app-deps",
-    "start": "npm install && electron ./app",
+    "start": "npm install && electron .",
     "pack": "build --dir",
     "dist": "build"
   },
@@ -38,7 +38,10 @@
     },
     "win": {
       "target": "squirrel"
-    }
+    },
+	"squirrelWindows": {
+	  "iconUrl": "https://raw.githubusercontent.com/SimplyCodin/OfficeOnlineWord/master/word.ico"
+	}
   },
   "dependencies": {
     "electron-builder-squirrel-windows": "^19.21.1"
