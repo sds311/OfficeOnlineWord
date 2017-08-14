@@ -4,12 +4,14 @@
   "license": "MIT",
   "description": "your app description",
   "author": "xyz <xyz@gmail.com>",
+  "url": "https://github.com/SimplyCodin/OfficeOnlineWord"
   "main": "main.js",
   "scripts": {
     "postinstall": "electron-builder install-app-deps",
     "start": "npm install && electron .",
     "pack": "build --dir",
-    "dist": "build"
+    "dist": "build",
+	"dist:mwl": "build -mwl"
   },
   "build": {
     "appId": "io.atom.electron.word",
