@@ -4,7 +4,7 @@
   "license": "MIT",
   "description": "your app description",
   "author": "xyz <xyz@gmail.com>",
-  "url": "https://github.com/SimplyCodin/OfficeOnlineWord"
+  "url": "https://github.com/SimplyCodin/OfficeOnlineWord",
   "main": "main.js",
   "scripts": {
     "postinstall": "electron-builder install-app-deps",
