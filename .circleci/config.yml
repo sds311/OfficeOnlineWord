@@ -4,6 +4,9 @@
 #
 version: 2
 jobs:
+dependencies:
+  pre:
+    - go get github.com/tcnksm/ghr
   build:
     docker:
       # specify the version you desire here
@@ -27,13 +30,11 @@ jobs:
           - v1-dependencies-
 
       - run: yarn install
-
+0
       - save_cache:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
         
       # run tests!
-      - run: yarn test
-
-
+      - run: yarn run dist
