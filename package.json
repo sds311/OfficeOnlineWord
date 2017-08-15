@@ -11,7 +11,7 @@
     "start": "npm install && electron .",
     "pack": "build --dir",
     "dist": "build --publish",
-	"dist:mwl": "build -wl -publish"
+	"dist:mwl": "build -w -l -publish"
   },
   "build": {
     "appId": "io.atom.electron.word",
