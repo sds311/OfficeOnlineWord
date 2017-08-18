@@ -12,8 +12,8 @@
     "start": "npm install && electron .",
     "pack": "build --dir",
     "dist": "build",
-    "dist:mwl": "build -w -l",
-    "github": "github-release upload -o simplycodin -r OfficeOnlineWord -t ${npm_package_version} -n ${npm_package_name}-${npm_package_version} dist/win/*"
+    "dist:ci": "build -w -l -pd",
+    "github": "github-release upload -o simplycodin -r OfficeOnlineWord -t ${npm_package_version} -n ${npm_package_name}-${npm_package_version} dist/* "
   },
   "build": {
     "appId": "io.atom.electron.word",
