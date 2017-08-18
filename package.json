@@ -12,8 +12,8 @@
     "start": "npm install && electron .",
     "pack": "build --dir",
     "dist": "build",
-	"dist:mwl": "build -w -l",
-	"release": "github-release upload -o simplycodin -r OfficeOnlineWord -t ${npm_package_version} -n ${npm_package_name}-${npm_package_version} dist/win/*"
+    "dist:mwl": "build -w -l",
+    "release": "github-release upload -o simplycodin -r OfficeOnlineWord -t ${npm_package_version} -n ${npm_package_name}-${npm_package_version} dist/win/*"
   },
   "build": {
     "appId": "io.atom.electron.word",
@@ -42,18 +42,19 @@
     },
     "win": {
       "target": "squirrel",
-	  "icon": "word.ico"
+      "icon": "word.ico"
     },
-	"squirrelWindows": {
-	  "iconUrl": "https://raw.githubusercontent.com/SimplyCodin/OfficeOnlineWord/master/word.ico"
-	}
+    "squirrelWindows": {
+      "iconUrl": "https://raw.githubusercontent.com/SimplyCodin/OfficeOnlineWord/master/word.ico"
+    }
   },
   "dependencies": {
     "electron-builder-squirrel-windows": "^19.21.1"
   },
   "devDependencies": {
     "electron": "latest",
-    "electron-builder": "latest"
+    "electron-builder": "latest",
+    "github-release-cli": "^0.3.0"
   },
   "optionalDependencies": {}
 }
