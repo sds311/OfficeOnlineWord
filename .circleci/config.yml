@@ -39,7 +39,8 @@ jobs:
       - store_artifacts:
           path: dist/
   deploy: 
-     steps:
+    machine: true 
+    steps:
       - checkout
       - run: yarn run release
           
