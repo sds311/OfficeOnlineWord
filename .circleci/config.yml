@@ -39,7 +39,6 @@ jobs:
       - store_artifacts:
           path: dist/
   deploy: 
-    working_directory: ~/repo
      steps:
       - checkout
       - run: yarn run release
