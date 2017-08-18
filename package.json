@@ -1,9 +1,10 @@
 {
-  "name": "electronword",
+  "name": "OfficeOnlineWord",
   "version": "0.0.1",
   "license": "MIT",
   "description": "your app description",
-  "author": "xyz <xyz@gmail.com>",
+  "author": "simplyCodin <xyz@gmail.com>",
+  "homepage": "https://github.com/SimplyCodin/OfficeOnlineWord",
   "url": "https://github.com/SimplyCodin/OfficeOnlineWord",
   "main": "main.js",
   "scripts": {
