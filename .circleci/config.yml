@@ -39,7 +39,11 @@ jobs:
       - store_artifacts:
           path: dist/
   deploy: 
-    machine: true 
+    docker:
+      - image: electronuserland/electron-builder:wine
+      
+    working_directory: ~/repo
+    
     steps:
       - checkout
       - run: yarn run github
