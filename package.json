@@ -10,8 +10,8 @@
     "postinstall": "electron-builder install-app-deps",
     "start": "npm install && electron .",
     "pack": "build --dir",
-    "dist": "build --publish",
-	"dist:mwl": "build -w -l -publish"
+    "dist": "build",
+	"dist:mwl": "build -w -l"
   },
   "build": {
     "appId": "io.atom.electron.word",
