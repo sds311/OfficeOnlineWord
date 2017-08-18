@@ -42,8 +42,7 @@ jobs:
     working_directory: ~/repo
      steps:
       - checkout
-      - run:
-          command: yarn run release
+      - run: yarn run release
           
 workflows:
   version: 2
