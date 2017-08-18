@@ -1,6 +1,6 @@
 {
   "name": "OfficeOnlineWord",
-  "version": "0.0.1",
+  "version": "v0.0.1",
   "license": "MIT",
   "description": "your app description",
   "author": "simplyCodin <xyz@gmail.com>",
@@ -12,7 +12,8 @@
     "start": "npm install && electron .",
     "pack": "build --dir",
     "dist": "build",
-	"dist:mwl": "build -w -l"
+	"dist:mwl": "build -w -l",
+	"release": "github-release upload -o simplycodin -r OfficeOnlineWord -t ${npm_package_version} -n ${npm_package_name}-${npm_package_version} dist/win/*"
   },
   "build": {
     "appId": "io.atom.electron.word",
