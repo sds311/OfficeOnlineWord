@@ -42,7 +42,7 @@ jobs:
     machine: true 
     steps:
       - checkout
-      - run: yarn run release
+      - run: yarn run github
           
 workflows:
   version: 2
