@@ -20,6 +20,7 @@
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
+  align-self: center;
 }
 
 
@@ -44,38 +45,36 @@ body {
 #title-bar {
   -webkit-app-region: drag;
   height: 50px;
-  padding: 0px;
   margin: 0px;
   background-color: #19478A;
   color: #FFFFFF;
   font-family: sans-serif;
+  position: fixed;
+  width: 100%
 }
 
 #title {
-  position: fixed;
-  top: 0px;
+  top: 0
   left: 0px;
-  padding: 10px;
+  margin: 10px;
   font-size: 30px;
+  display: inline-block;
 }
 
 #title-bar-btns {
   -webkit-app-region: no-drag;
-  position: fixed;
-  top: 1;
   right: 0;
-  padding: 10px;
+  margin: 10px;
   font-size: 30px;
+  height: 30px;
+  top: 0;
+  display: inline-block;
+  position: fixed;
 }
 
-#title-bar-btns button {
-  height: 32px;
-  width: 32px;
-  background-color: transparent;
-  border: none;
-  color: #ffffff;
-  font-size: 16px;
+#title-bar-btns i:hover{
+	background-color: rgba(#000, 0.2)
 }
-iframe {
-  
+.webview {
+	height: 100%;
 }

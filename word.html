@@ -1,26 +1,18 @@
 <!doctype HTML>
 <html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-     <script src="index.js"></script>
-  </head>
-  <body>
-    <div id="title-bar">
-      <div id="title">Word Online</div>
-      <div id="title-bar-btns">
-        <button id="min-btn">
-          <i class="material-icons">remove</i>
-        </button>
-        <button id="max-btn">
-          <i class="material-icons" id="max">fullscreen</i>
-        </button>
-        <button id="close-btn">
-          <i class="material-icons">close</i>
-        </button>
-      </div>
-    </div>
-    <div id="content" class="webview">
-        <webview src="https://office.live.com/start/Word.aspx" plugins class="webview" height="550px"></webview>
-    </div>
-  </body>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script src="index.js"></script>
+	</head>
+	<body>
+		<div id="title-bar">
+			<h1 id="title">Word Online</h1>
+			<div id="title-bar-btns">
+				<i id="min-btn" class="material-icons">remove</i>
+				<i id="max-btn" class="material-icons" id="max">fullscreen</i>
+				<i id="close-btn" class="material-icons">close</i>
+			</div>
+		</div>
+		<webview src="https://office.live.com/start/Word.aspx" plugins id="content" class="webview" height="550px"></webview>
+	</body>
 </html>

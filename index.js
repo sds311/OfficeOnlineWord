@@ -1,9 +1,8 @@
-(function () {
-  const remote = require('electron').remote;
-  const window = remote.getCurrentWindow();
+const remote = require('electron').remote;
+const window = remote.getCurrentWindow();
 
 function init() {
-  document.getElementById("max-btn").addEventListener("click", function (e) {
+  document.getElementById("max").addEventListener("click", function (e) {
     if (!window.isMaximized()) {
       window.maximize();
     }
@@ -11,7 +10,7 @@ function init() {
       window.minimize();
     }
   });
-  document.getElementById("close-btn").addEventListener("click", function (e) {
+  document.getElementById("close").addEventListener("click", function (e) {
     window.close();
   });
 };
@@ -21,5 +20,3 @@ document.onreadystatechange = function () {
     init();
   }
 };
-
-})();

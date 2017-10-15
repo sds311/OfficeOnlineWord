@@ -1,6 +1,4 @@
-const {
-  app, BrowserWindow
-} =require('electron')
+const {app, BrowserWindow} =require('electron')
 const path = require('path')
 const url = require('url')
 
@@ -10,9 +8,9 @@ let win
 
 function createWindow () {
   // Create the browser window.
-  win = new BrowserWindow({width: 800, height: 600, frame: false, icon: "word.ico"})
+  win = new BrowserWindow({width: 800, height: 600, frame: false, titleBarStyle: 'customButtonsOnHover', icon: "word.ico"})
   // and load the index.html of the app.
-  window.loadURL(url.format({
+  win.loadURL(url.format({
     pathname: path.join(__dirname, 'word.html'),
     protocol: 'file:',
     slashes: true
