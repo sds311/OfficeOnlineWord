@@ -1,5 +1,7 @@
 # Office Online - Word  
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/SimplyCodin/OfficeOnlineWord.svg)](https://greenkeeper.io/)
+
 [![CircleCI](https://circleci.com/gh/SimplyCodin/OfficeOnlineWord/tree/master.svg?style=svg)](https://circleci.com/gh/SimplyCodin/OfficeOnlineWord/tree/master)
 
 [![forthebadge](http://forthebadge.com/images/badges/uses-html.svg)](https://developer.mozilla.org/html)
