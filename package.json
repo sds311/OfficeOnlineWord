@@ -55,7 +55,7 @@
 		"electron-builder": "latest",
 		"electron-builder-squirrel-windows": "^19.21.1",
 		"github-release-cli": "^0.3.0",
-		"mocha": "^3.5.0",
+		"mocha": "^4.0.1",
 		"spectron": "^3.7.2",
 		"standard": "^10.0.3"
 	},
