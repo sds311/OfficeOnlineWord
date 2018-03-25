@@ -44,7 +44,7 @@
 			"target": "squirrel"
 		},
 		"squirrelWindows": {
-			"iconUrl": "https://raw.githubusercontent.com/SimplyCodin/OfficeOnlineWord/master/word.ico"
+			"iconUrl": "https://raw.githubusercontent.com/SimplyCodin/OfficeOnlineWord/master/build/icon.ico"
 		}
 	},
 	"dependencies": {
