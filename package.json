@@ -3,7 +3,10 @@
 	"version": "v0.0.1",
 	"license": "MIT",
 	"description": "your app description",
-	"author": "SimplyCodin",
+	"author": {
+		"name":"SimplyCodin",
+		"email": "simplynetwork@outlook.com"
+	},
 	"homepage": "https://github.com/SimplyCodin/OfficeOnlineWord",
 	"main": "main.js",
 	"scripts": {
